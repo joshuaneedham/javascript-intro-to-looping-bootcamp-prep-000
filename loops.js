@@ -15,3 +15,13 @@ function whileLoop(n) {
   }
   return ('done');
 }
+
+function maybeTrue() {
+  return Math.random() == 0;
+}
+ function doWhileLoop(array) {
+do {
+  array.splice();
+} while (maybeTrue());
+return doWhileLoop();
+}
