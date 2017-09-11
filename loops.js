@@ -17,11 +17,11 @@ function whileLoop(n) {
 }
 
 function maybeTrue() {
-  return Math.random() == 0;
+  return Math.random() >= 0;
 }
  function doWhileLoop(array) {
 do {
-  array.splice(array);
+  array.splice();
 } while (maybeTrue());
 return doWhileLoop();
 }
