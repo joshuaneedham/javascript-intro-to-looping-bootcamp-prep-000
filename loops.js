@@ -23,5 +23,4 @@ function maybeTrue() {
 do {
   array.splice();
 } while (maybeTrue());
-return doWhileLoop();
 }
